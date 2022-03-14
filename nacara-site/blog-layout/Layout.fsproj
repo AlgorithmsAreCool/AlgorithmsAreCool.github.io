@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Shared/Blog.Shared.fs" />
+    <Compile Include="Shared/Blog.LayoutFragments.fs" />
+
+    <Compile Include="blog-post.fs" />
+    <Compile Include="blog-index.fs" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Feliz" Version="1.61.0" />
+    <PackageReference Include="Feliz.Bulma" Version="2.18.0" />
+    <PackageReference Include="Nacara.Core" Version="1.2.1" />
+  </ItemGroup>
+
+</Project>

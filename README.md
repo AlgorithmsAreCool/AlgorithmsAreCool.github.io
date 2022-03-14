@@ -1,1 +1,0 @@
-# AlgorithmsAreCool.github.io
